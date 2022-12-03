@@ -28,21 +28,21 @@
                 </div>
                 <div class="input-group col">
                   <span class="input-group-text">GP</span>
-                  <input type="number" class="form-control" id="gp" placeholder="0">
+                  <input type="number" min="0" class="form-control" id="gp" placeholder="0">
                 </div>
                 <div class="input-group col">
                   <span class="input-group-text">SP</span>
-                  <input type="number" class="form-control" id="sp" placeholder="0">
+                  <input type="number" min="0" class="form-control" id="sp" placeholder="0">
                 </div>
                 <div class="input-group col">
                   <span class="input-group-text">CP</span>
-                  <input type="number" class="form-control" id="cp" placeholder="0">
+                  <input type="number" min="0" class="form-control" id="cp" placeholder="0">
                 </div>
               </div>
-              <input type="number" class="form-control mb-3" id="number" placeholder="Number of party members">
+              <input type="number" min="0" class="form-control mb-3" id="number" placeholder="Number of party members">
               <div class="input-group mb-3">
                 <span class="input-group-text">%</span>
-                <input type="number" class="form-control" id="partyshare" placeholder="Allocate a percentate to party fund before splitting?">
+                <input type="number" min="0" max="100" class="form-control" id="partyshare" placeholder="Allocate a percentate to party fund before splitting?">
               </div>  
               <div class="d-grid">
                 <input type="submit" value="Split the loot" class="btn btn-dark" value="">
